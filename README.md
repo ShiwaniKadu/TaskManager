@@ -14,5 +14,5 @@
 
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/yourusername/taskmaster.git
+   git clone https://github.com/ShiwaniKadu/taskmaster.git
    cd taskmaster
