@@ -16,3 +16,6 @@
    ```sh
    git clone https://github.com/ShiwaniKadu/taskmaster.git
    cd taskmaster
+## Contact
+-Shiwani Kadu - shivanikadu99@gmail.com
+-Project Link - https://github.com/ShiwaniKadu/TaskManager
