@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task List</title>
+    
+  </head>
+  <body>
+    <h1><a href="{% url 'task_list' %}">CRUD Task App</a></h1>
+    <a href="{% url 'task_create' %}">Add new task</a>
+    <ul>
+      <li>
+        <a href="{% url 'task_update' task.id %}">{{ task.title }}</a>
+        - {{ task.get_status_display }} - {{ task.due_date }} Actions:
+        <a href="{% url 'task_detail' task.pk %}">View</a> |
+        <a href="{% url 'task_update' task.pk %}">Edit</a> |
+        <a href="{% url 'task_delete' task.pk %}">Delete</a>
+      </li>
+    </ul>
+  </body>
+</html>
